@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#783142"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/boxMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="559dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="514dp"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <Button
+                android:id="@+id/btnHardware"
+                android:layout_width="260dp"
+                android:layout_height="105dp"
+                android:layout_margin="22dp"
+                android:background="@drawable/hardware" />
+
+            <Button
+                android:id="@+id/btnSoftware"
+                android:layout_width="266dp"
+                android:layout_height="106dp"
+                android:layout_margin="22dp"
+                android:background="@drawable/soft" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
